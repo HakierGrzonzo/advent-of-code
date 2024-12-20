@@ -123,7 +123,6 @@ def walk_pred(start, end: Node, pred: dict[Node, list[Node]]):
             break
 
 
-
 def a_star(nodes: list[Node], start: Node, stop: Node):
     h = dict()
     g = dict()
